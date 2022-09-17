@@ -9,16 +9,22 @@ function popsomething() {
 }
 //console.logo(myname)
 
-console.log(document)
+// console.log(document)
 
 var ourbody=document.querySelector(".ourpagebody")
 
 // ourbody.style.background="black"
 var hamburger=document.querySelector(".hamburger-container")
 
-console.log(hamburger)
+// console.log(hamburger)
 
 function addandremove(){
     hamburger.classList.toggle('showburger')
+}
+var mobilelinkscontainer=document.querySelector('.mobile-links-container')
+
+function addandremove(){
+    hamburger.classList.toggle('showburger')
+    mobilelinkscontainer.classList.toggle('showmobilelinks')
 }
 

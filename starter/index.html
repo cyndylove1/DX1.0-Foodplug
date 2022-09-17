@@ -9,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="fontawesome/css/all.css">
     <link rel="stylesheet" href="defaults.css">
     <link rel="stylesheet" href="main.css">
@@ -25,10 +29,10 @@
             </div>
             <div class="desktop-linkcontainer">
                 <ul>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Explore Foods</li>
-                    <li>FAQ</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#aboutus">About Us</a></li>
+                    <li><a href="#explorefoods">Explorefoods</a></li>
+                    <li><a href="#faq">Faq</a></li>
                 </ul>
                 <button class="btn btn-red">+1(090) 3402-3722</button>
             </div>
@@ -43,9 +47,23 @@
                 <span>FoodPlug</span>
             </div>
 
-            <div class="hamburger-container" onclick="addandremove()">
+            <div class="hamburger-container animate__animated animate__swing" onclick="addandremove()">
                 <div class="menu"></div>
             </div>
+            <div class="mobile-links-container">
+                <div class="mobile-links-content">
+                    <ul>
+                        <a href="#"class="active-link"><li>home</li></a>
+                        <a href="#aboutus"><li>about us</li></a>
+                        <a href="#explorefoods"><li>explore foods</li></a>
+                        <a href="#faq"><li>faq</li></a>
+                    </ul>
+                    <button class="btn">+1(090) 3402-3722</button>
+                </div>
+    
+    
+            </div>
+    
         </nav>
 
     </header>
@@ -74,7 +92,23 @@
                 </div>
             </div>
         </div>
+        <div class="mobile-links-container">
+            <div class="mobile-links-content">
+                <ul>
+                    <li><a href="#"class="active-link">home</a></li>
+                    <li><a href="#aboutus">about us</a></li>
+                    <li><a href="#explorefoods">explore foods</a></li>
+                    <li><a href="#faq">faq</a></li>
+                </ul>
+                <button class="btn">+1(090) 3402-3722</button>
+            </div>
+
+
+        </div>
+
         <!-- <!== Header banner section ends here==> -->
+
+
         <!-- <!== Header counter section starts here==> -->
         <div class="header-counter-section">
             <div class="header-counter">
@@ -99,7 +133,8 @@
 
 
         <!--  about us section starts here-->
-        <div class="About-us">
+        <d
+        div class="About-us" id="aboutus">
             <div class="About-us-container">
                 <div class="About-us-cards-img">
                     <img src="./img/about1.png" alt="">
@@ -162,7 +197,7 @@
 
             <!--  food explore section starts here-->
 
-            <div class="explore-foods-section">
+            <div class="explore-foods-section" id="explorefoods">
                 <h2>Explore Our Foods</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse culpa, ipsam consequuntur adipisci
                     tenetur
@@ -217,7 +252,7 @@
             <!--  food explore section ends here-->
 
             <!--  faq section starts here-->
-            <div class="faq-section">
+            <div class="faq-section" id="faq">
                 <h2>Frequently Asked Questions</h2>
                 <div class="faq-container">
                     <div class="faq-item">
