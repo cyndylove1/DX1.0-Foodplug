@@ -12,7 +12,6 @@ function popsomething() {
 // console.log(document)
 
 var ourbody=document.querySelector(".ourpagebody")
-
 // ourbody.style.background="black"
 var hamburger=document.querySelector(".hamburger-container")
 
@@ -27,4 +26,8 @@ function addandremove(){
     hamburger.classList.toggle('showburger')
     mobilelinkscontainer.classList.toggle('showmobilelinks')
 }
+
+    
+
+
 

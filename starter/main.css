@@ -573,4 +573,10 @@ padding-bottom: 10px;
     background:var(--main-color-dark) ;
     cursor: pointer;
 }
+.footer-icon-content{
+    display: flex;
+}
+.footer-linkedin{
+    background: url(www.linkedin.com/in/cyndylove1);
+}
  /* <!--  footer section starts here-->    */
